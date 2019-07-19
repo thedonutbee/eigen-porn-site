@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<header>
+  <script>
+    $(document).ready(function() {
+      // Check for click events on the navbar burger icon
+      $(".navbar-burger").click(function() {
+        // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+        $(".navbar-burger").toggleClass("is-active");
+        $(".navbar-menu").toggleClass("is-active");
+      });
+    });
+  </script>
+  <div class="container">
+    <nav class="navbar">
+      <div class="navbar-brand">
+        <a href="index2.html" class="navbar-item">
+          <img src="Logo.png" alt="" />
+        </a>
+        <a
+          role="button"
+          class="navbar-burger"
+          aria-label="menu"
+          aria-expanded="false"
+        >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+      <div class="navbar-menu">
+        <div class="navbar-start">
+          <a href="index.html" class="navbar-item">HOME</a>
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link">VIDEO'S</a>
+            <div class="navbar-dropdown">
+              <a href="" class="navbar-item"
+                ><h2 class="subtitle">Ontdek Video's!</h2></a
+              >
+              <hr class="navbar-divider" />
+              <a href="" class="navbar-item">Heetst</a>
+              <a href="" class="navbar-item">Meest bekeken</a>
+            </div>
+          </div>
+
+          <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">CATEGORIEËN</a>
+              <div class="navbar-dropdown">
+                <a href="" class="navbar-item"
+                  ><h2 class="subtitle">Trending</h2></a
+                >
+                <hr class="navbar-divider" />
+                <a href="aziatisch.html" class="navbar-item">Aziatisch</a>
+                <a href="" class="navbar-item">Blondine</a>
+                <a href="" class="navbar-item">Brunette</a>
+                <a href="" class="navbar-item">Tiener</a>
+              </div>
+            </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <hr class="navbar-divider" />
+</header>
